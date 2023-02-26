@@ -1,0 +1,19 @@
+.App {
+  width: 100vw;
+}
+
+.content-container {
+  padding: 50px;
+  min-height: 85vh !important;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+}
+
+@media screen and (max-width: 450px) {
+  .content-container {
+    padding: 25px 10px;
+  }
+}
